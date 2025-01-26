@@ -45,10 +45,5 @@ As a user, I would like to:
 - **CSS**: For styling the webpage and making it visually appealing.
 - **JavaScript**: For the functionality, including calculating the Akan name and validating the user input.
 
-## Setup Instructions
-To run the application on your local machine:
 
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/owen755/week3-project
 
