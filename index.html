@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<center><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akan Name Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: lightsalmon; color: rgb(62, 63, 61);">
+  <div class="container">
+    <h1 style="background-color: aqua;">Akan Name Generator</h1>
+    <p style="font-style: italic;">This app calculates your Akan name based on your birthdate and gender. Enter your details below to find out your Akan name!</p>
+    
+    <!-- Birthday input -->
+    <label for="birthday">Enter your birthday:</label>
+    <input type="date" id="birthday" required>
+
+    <!-- Gender selection -->
+    <div>
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male"> Male
+      <input type="radio" id="female" name="gender" value="female"> Female
+    </div>
+
+    <!-- Submit Button -->
+    <button onclick="calculateAkanName()">Submit</button>
+
+    <!-- Result output -->
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html></center>
